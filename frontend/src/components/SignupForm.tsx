@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function SignupForm() {
   return (
-    <div className='flex flex-col items-center justify-center px-20'>
+    <div className='flex flex-col items-center justify-center px-20 w-full border'>
       <h1 className='text-4xl w-full text-center font-bold'>Create an account</h1>
       <h2 className='text-lg text-slate-500 font-semibold'>Already have an account?{" "}
         <Link to={"/signin"}>

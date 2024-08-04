@@ -4,9 +4,11 @@ import SignupForm from '../components/SignupForm'
 
 export default function Signup() {
   return (
-    <div className='grid grid-cols-2'>
+    <div className='grid md:grid-cols-2'>
       <SignupForm />
-      <Quote/>
+      <div className="invisible md:visible">
+        <Quote/>
+      </div>
     </div>
   )
 }
